@@ -8,9 +8,14 @@
     "authors": [
         {
             "name": "Saud Faisal",
-            "email": "saud@2levelsabove.com"
+            "email": "saud@2levelsabove.com",
+            "homepage": "http://2levelsabove.com"
         }
     ],
+    "require":     {
+        "symfony/framework-bundle": ">=2.2",
+        "bmatzner/jquery-bundle": ">=1.11"
+    },
     "autoload": {
         "psr-0": { "Babaganoush\\Flotr2Bundle": "" }
     },
